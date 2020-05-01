@@ -25,13 +25,11 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "html.realtimePreview",
-        "title": "Live Realtime Preview HTML",
-        "category": "Preview"
-      }
-    ]
+    "commands": [{
+      "command": "html.realtimePreview",
+      "title": "Live Realtime Preview HTML",
+      "category": "Preview"
+    }]
   },
   "scripts": {
     "vscode:prepublish": "yarn compile",
