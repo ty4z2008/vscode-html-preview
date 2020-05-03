@@ -7,7 +7,9 @@
     "args": [
       "${workspaceRoot}/src/extension.ts"
     ],
+    "runtimeExecutable": "${execPath}",
     "runtimeArgs": [
+      "--extensionDevelopmentPath=${workspaceRoot}",
       "-r",
       "ts-node/register"
     ],
@@ -20,5 +22,13 @@
       "TS_NODE_IGNORE": "false",
       "TS_NODE_PROJECT": "${workspaceRoot}/tsconfig.json"
     }
+  }, {
+    "name": "Run Extension",
+    "type": "extensionHost",
+    "request": "launch",
+    "runtimeExecutable": "${execPath}",
+    "args": ["--extensionDevelopmentPath=${workspaceRoot}"],
+    "outFiles": ["${workspaceFolder}/out/**/*.js"],
+    "preLaunchTask": "npm: watch"
   }]
 }
