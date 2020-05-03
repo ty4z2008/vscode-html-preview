@@ -29,6 +29,10 @@
     "realtime",
     "auto reload"
   ],
+  "extensionKind": [
+    "workspace",
+    "ui"
+  ],
   "activationEvents": [
     "onCommand:html.realtimePreview"
   ],
