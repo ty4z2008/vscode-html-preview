@@ -3,7 +3,7 @@
   "displayName": "HTML preview",
   "publisher": "ty4z2008",
   "description": "realtime preview html",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.38.0"
   },
@@ -34,11 +34,13 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "html.realtimePreview",
-      "title": "Live Realtime Preview HTML",
-      "category": "Preview"
-    }]
+    "commands": [
+      {
+        "command": "html.realtimePreview",
+        "title": "Live Realtime Preview HTML",
+        "category": "Preview"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "yarn compile",
