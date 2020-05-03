@@ -1,8 +1,8 @@
-# 网页代码预览
+# HTML Realtime preview
 
-网页代码实时预览
+HTML Realtime preview in vscode
 
-# README
+# snapshot
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gedf8rl4i7j31az0u010x.jpg)
 
