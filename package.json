@@ -1,9 +1,9 @@
 {
   "name": "html-preview",
-  "displayName": "HTML preview",
+  "displayName": "HTML Preview",
   "publisher": "ty4z2008",
-  "description": "realtime preview html",
-  "version": "1.2.0",
+  "description": "Realtime Preview HTML",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.41.1"
   },
@@ -23,6 +23,7 @@
     "color": "#C80000",
     "theme": "dark"
   },
+
   "keywords": [
     "HTML",
     "Preview",
@@ -38,13 +39,16 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "html.realtimePreview",
-        "title": "Live Realtime Preview HTML",
-        "category": "Preview"
-      }
-    ]
+    "commands": [{
+      "command": "html.realtimePreview",
+      "title": "Live Realtime Preview HTML",
+      "category": "Preview"
+    }],
+    "keybindings": [{
+      "command": "html.realtimePreview",
+      "key": "ctrl+alt+p",
+      "mac": "cmd+alt+p"
+    }]
   },
   "scripts": {
     "vscode:prepublish": "yarn compile",

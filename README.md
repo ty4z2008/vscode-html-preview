@@ -7,6 +7,10 @@ HTML Realtime preview in vscode
 
 > you need reboot vscode when install the plugin after
 
+## Usage
+
+`Ctrl+Alt+p` under Windows and Linux or `Cmd+Alt+p` under macOS active the plugin
+
 # Snapshot
 
 
