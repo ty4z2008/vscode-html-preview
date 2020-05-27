@@ -13,5 +13,5 @@ HTML Realtime preview in vscode
 
 # Snapshot
 
+![Preview](https://tva1.sinaimg.cn/large/007S8ZIlgy1gf6uavi6m3g30hs09ou0x.gif)
 
-![](https://tva1.sinaimg.cn/large/007S8ZIlgy1geftx7myqag30xc0i6avp.gif)
